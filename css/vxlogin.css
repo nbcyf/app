@@ -47,7 +47,8 @@ header span{
 }
 
 .form .checkbox{
-    display: inline-block;
+    display: -webkit-inline-box;
+    vertical-align: text-bottom;
 }
 .form .checkbox{
     margin-left: 5%;
