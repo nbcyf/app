@@ -27,7 +27,7 @@
     $(".login").on("click",()=>{
         var phonenum=$(".phone").val();
         var validnum=$(".validnum").val();
-        if(validphone(phonenum)){alert("请输入正确的手机号码");return;}
+        if(!validphone(phonenum)){alert("请输入正确的手机号码");return;}
         if(validnum==""){alert("请输入验证码");return;}
        if($(".checkbox").prop("checked")){
            console.log("走了");
