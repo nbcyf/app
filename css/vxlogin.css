@@ -31,7 +31,8 @@ header span{
 .form .phone,.validnum{
     width:100%;
     height: 40px;
-    text-indent: 35%;
+    text-align: center;
+    text-align: -webkit-center;
 }
 .form .span{
     position: absolute;

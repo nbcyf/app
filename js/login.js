@@ -25,6 +25,10 @@
     });
     //给登录添加事件监听
     $(".login").on("click",()=>{
+        var phonenum=$(".phone").html();
+        var validnum=$(".validnum").html();
+        if(validphone(phonenum)){alert("请输入正确的手机号码");return;}
+        if(validnum==""){alert("请输入验证码");return;}
        if($(".checkbox").prop("checked")){
            console.log("走了");
            //发起ajax请求
