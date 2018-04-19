@@ -9,7 +9,7 @@
         if($(".span").html()!=="获取验证码") return;
        var phone=$(".phone").val();
         if(phone==""){
-            alert("请输入验证码");
+            alert("请输入手机号");
         }else{
             if(validphone(phone)){
                 //调用定时器
