@@ -1,0 +1,67 @@
+body{
+    background-color: #E5E5E5;
+}
+html{
+    position: relative;
+    height: 100%;
+}
+
+header{
+    position: relative;
+    text-align: center;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 10%;
+}
+header span{
+    position: absolute;
+    top: 0;
+    left: 20px;
+    font-size: 28px;
+    line-height: 15px;
+}
+.form{
+    margin-top: 35%;
+    width: 100%;
+}
+.form div{
+    position: relative;
+    margin-bottom: 10%;
+}
+.form .phone,.validnum{
+    width:100%;
+    height: 40px;
+    text-indent: 35%;
+}
+.form .span{
+    position: absolute;
+    right: 1%;
+    height: 100%;
+    width: 30%;
+    top: 5%;
+    line-height: 40px;
+    background-color: #cccccc;
+    border: 1px solid #ccc;
+    font-size: 18px;
+}
+
+.form .checkbox{
+    display: inline-block;
+}
+.form .checkbox{
+    margin-left: 5%;
+    width: 20px;
+    height: 20px;
+    margin-top: 5%;
+}
+.form .login{
+    display: block;
+    height: 40px;
+    width: 100%;
+    margin-top: 15%;
+}
+.time{
+    filter:blur(10px);
+    -ms-filter: blur(10px);
+    -webkit-filter:blur(10px);
+}
